@@ -18,6 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // 写了点东西，
+    // 不知所以然
+    
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor redColor];
     NSArray *titles = @[@"你好，我是你阿爸爸", @"孙子，饿哦是"];
