@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <StoreKit/StoreKit.h>
+#import <UserNotifications/UserNotifications.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +19,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    if (@available(iOS 10.3, *)) {
+//        [SKStoreReviewController requestReview];
+    } else {
+        // Fallback on earlier versions
+    }
+    
     return YES;
 }
 
@@ -47,5 +56,27 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (void)registerLocalNotification:(NSInteger)alertTime word:(NSString *)words
+{
+    UILocalNotification *localNotification = [[UILocalNotification alloc] init];
+    localNotification.fireDate = [NSDate dateWithTimeIntervalSinceNow:5];
+    
+    UIUserNotificationType types = UIUserNotificationTypeAlert | UIUserNotificationTypeSound | UIUserNotificationTypeBadge;
+    UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:types categories:nil];
+    localNotification.repeatInterval = NSCalendarUnitSecond;
+    [[UIApplication sharedApplication] registerUserNotificationSettings:settings];
+    NSDictionary *userInfo = [NSDictionary dictionaryWithObject:words forKey:@"key"];
+    localNotification.userInfo = userInfo;
+    
+    [[UIApplication sharedApplication] scheduleLocalNotification:localNotification];
+    
+    if (@available (iOS 10, *) ) {
+        UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
+        [center requestAuthorizationWithOptions:UNAuthorizationOptionAlert | UNAuthorizationOptionBadge | UNAuthorizationOptionSound completionHandler:^(BOOL granted, NSError * _Nullable error) {
+            
+        }];
+        
+    }
+}
 
 @end

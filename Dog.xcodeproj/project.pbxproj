@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CFDD8B6421ED199C302D638 /* libPods-Dog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE01A722C0D970ED27C4168B /* libPods-Dog.a */; };
+		E04AC2A01FD644C70073B2C1 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E04AC2971FD644C70073B2C1 /* SVIndefiniteAnimatedView.m */; };
+		E04AC2A11FD644C70073B2C1 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E04AC2991FD644C70073B2C1 /* SVProgressAnimatedView.m */; };
+		E04AC2A21FD644C70073B2C1 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E04AC29B1FD644C70073B2C1 /* SVProgressHUD.bundle */; };
+		E04AC2A31FD644C70073B2C1 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E04AC29D1FD644C70073B2C1 /* SVProgressHUD.m */; };
+		E04AC2A41FD644C70073B2C1 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E04AC29F1FD644C70073B2C1 /* SVRadialGradientLayer.m */; };
+		E04AC2B01FD65DF10073B2C1 /* MBProgressHUD+Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = E04AC2AB1FD65DF10073B2C1 /* MBProgressHUD+Simple.m */; };
+		E04AC2B11FD65DF10073B2C1 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = E04AC2AD1FD65DF10073B2C1 /* MBProgressHUD+MJ.m */; };
+		E04AC2B21FD65DF10073B2C1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E04AC2AF1FD65DF10073B2C1 /* MBProgressHUD.m */; };
+		E059F0D3202048DB00B2795C /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E059F0D2202048DB00B2795C /* TestModel.m */; };
 		E0995AFF1FC50BBA00D0CACA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0995AFE1FC50BBA00D0CACA /* AppDelegate.m */; };
 		E0995B021FC50BBA00D0CACA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0995B011FC50BBA00D0CACA /* ViewController.m */; };
 		E0995B051FC50BBA00D0CACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0995B031FC50BBA00D0CACA /* Main.storyboard */; };
@@ -15,6 +25,9 @@
 		E0995B0D1FC50BBA00D0CACA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0995B0C1FC50BBA00D0CACA /* main.m */; };
 		E0995B171FC50BBA00D0CACA /* DogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0995B161FC50BBA00D0CACA /* DogTests.m */; };
 		E0995B221FC50BBA00D0CACA /* DogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0995B211FC50BBA00D0CACA /* DogUITests.m */; };
+		E0E9C613203FBD72001397E6 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9C612203FBD72001397E6 /* TestView.m */; };
+		E0E9C616203FC20F001397E6 /* LyricLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9C615203FC20F001397E6 /* LyricLabel.m */; };
+		E0E9C619203FEF38001397E6 /* BilayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9C618203FEF38001397E6 /* BilayerLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94DA20B6AAE8A4B396F2D03F /* Pods-Dog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dog.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dog/Pods-Dog.release.xcconfig"; sourceTree = "<group>"; };
+		AE01A722C0D970ED27C4168B /* libPods-Dog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dog.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5082AFFF27D40D96B50D51D /* Pods-Dog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dog/Pods-Dog.debug.xcconfig"; sourceTree = "<group>"; };
+		E04AC2961FD644C70073B2C1 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		E04AC2971FD644C70073B2C1 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		E04AC2981FD644C70073B2C1 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		E04AC2991FD644C70073B2C1 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		E04AC29A1FD644C70073B2C1 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		E04AC29B1FD644C70073B2C1 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		E04AC29C1FD644C70073B2C1 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		E04AC29D1FD644C70073B2C1 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		E04AC29E1FD644C70073B2C1 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		E04AC29F1FD644C70073B2C1 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		E04AC2AA1FD65DF10073B2C1 /* MBProgressHUD+Simple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Simple.h"; sourceTree = "<group>"; };
+		E04AC2AB1FD65DF10073B2C1 /* MBProgressHUD+Simple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Simple.m"; sourceTree = "<group>"; };
+		E04AC2AC1FD65DF10073B2C1 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		E04AC2AD1FD65DF10073B2C1 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		E04AC2AE1FD65DF10073B2C1 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		E04AC2AF1FD65DF10073B2C1 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		E059F0D1202048DB00B2795C /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		E059F0D2202048DB00B2795C /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		E059F0D42024699C00B2795C /* common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = common.xcconfig; sourceTree = "<group>"; };
+		E059F0D5202469B600B2795C /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		E0995AFA1FC50BB900D0CACA /* Dog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0995AFD1FC50BB900D0CACA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0995AFE1FC50BBA00D0CACA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +87,13 @@
 		E0995B1D1FC50BBA00D0CACA /* DogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0995B211FC50BBA00D0CACA /* DogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogUITests.m; sourceTree = "<group>"; };
 		E0995B231FC50BBA00D0CACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E9C60E203FBD5E001397E6 /* Dog-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dog-Bridging-Header.h"; sourceTree = "<group>"; };
+		E0E9C611203FBD72001397E6 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		E0E9C612203FBD72001397E6 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		E0E9C614203FC20F001397E6 /* LyricLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LyricLabel.h; sourceTree = "<group>"; };
+		E0E9C615203FC20F001397E6 /* LyricLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyricLabel.m; sourceTree = "<group>"; };
+		E0E9C617203FEF38001397E6 /* BilayerLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BilayerLabel.h; sourceTree = "<group>"; };
+		E0E9C618203FEF38001397E6 /* BilayerLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BilayerLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CFDD8B6421ED199C302D638 /* libPods-Dog.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +122,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59FE0EC03ADDBB06DD329085 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5082AFFF27D40D96B50D51D /* Pods-Dog.debug.xcconfig */,
+				94DA20B6AAE8A4B396F2D03F /* Pods-Dog.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C43289E37F82DEDA3F9DFEE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE01A722C0D970ED27C4168B /* libPods-Dog.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E04AC2951FD644C70073B2C1 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E04AC2961FD644C70073B2C1 /* SVIndefiniteAnimatedView.h */,
+				E04AC2971FD644C70073B2C1 /* SVIndefiniteAnimatedView.m */,
+				E04AC2981FD644C70073B2C1 /* SVProgressAnimatedView.h */,
+				E04AC2991FD644C70073B2C1 /* SVProgressAnimatedView.m */,
+				E04AC29A1FD644C70073B2C1 /* SVProgressHUD-Prefix.pch */,
+				E04AC29B1FD644C70073B2C1 /* SVProgressHUD.bundle */,
+				E04AC29C1FD644C70073B2C1 /* SVProgressHUD.h */,
+				E04AC29D1FD644C70073B2C1 /* SVProgressHUD.m */,
+				E04AC29E1FD644C70073B2C1 /* SVRadialGradientLayer.h */,
+				E04AC29F1FD644C70073B2C1 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		E04AC2A81FD65DF10073B2C1 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E04AC2A91FD65DF10073B2C1 /* Category */,
+				E04AC2AC1FD65DF10073B2C1 /* MBProgressHUD+MJ.h */,
+				E04AC2AD1FD65DF10073B2C1 /* MBProgressHUD+MJ.m */,
+				E04AC2AE1FD65DF10073B2C1 /* MBProgressHUD.h */,
+				E04AC2AF1FD65DF10073B2C1 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		E04AC2A91FD65DF10073B2C1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E04AC2AA1FD65DF10073B2C1 /* MBProgressHUD+Simple.h */,
+				E04AC2AB1FD65DF10073B2C1 /* MBProgressHUD+Simple.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		E0995AF11FC50BB900D0CACA = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +184,8 @@
 				E0995B151FC50BBA00D0CACA /* DogTests */,
 				E0995B201FC50BBA00D0CACA /* DogUITests */,
 				E0995AFB1FC50BB900D0CACA /* Products */,
+				59FE0EC03ADDBB06DD329085 /* Pods */,
+				C43289E37F82DEDA3F9DFEE1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +202,28 @@
 		E0995AFC1FC50BB900D0CACA /* Dog */ = {
 			isa = PBXGroup;
 			children = (
+				E04AC2A81FD65DF10073B2C1 /* MBProgressHUD */,
+				E04AC2951FD644C70073B2C1 /* SVProgressHUD */,
 				E0995AFD1FC50BB900D0CACA /* AppDelegate.h */,
 				E0995AFE1FC50BBA00D0CACA /* AppDelegate.m */,
 				E0995B001FC50BBA00D0CACA /* ViewController.h */,
 				E0995B011FC50BBA00D0CACA /* ViewController.m */,
+				E0E9C611203FBD72001397E6 /* TestView.h */,
+				E0E9C612203FBD72001397E6 /* TestView.m */,
+				E0E9C614203FC20F001397E6 /* LyricLabel.h */,
+				E0E9C615203FC20F001397E6 /* LyricLabel.m */,
+				E0E9C617203FEF38001397E6 /* BilayerLabel.h */,
+				E0E9C618203FEF38001397E6 /* BilayerLabel.m */,
+				E059F0D42024699C00B2795C /* common.xcconfig */,
+				E059F0D5202469B600B2795C /* Debug.xcconfig */,
+				E059F0D1202048DB00B2795C /* TestModel.h */,
+				E059F0D2202048DB00B2795C /* TestModel.m */,
 				E0995B031FC50BBA00D0CACA /* Main.storyboard */,
 				E0995B061FC50BBA00D0CACA /* Assets.xcassets */,
 				E0995B081FC50BBA00D0CACA /* LaunchScreen.storyboard */,
 				E0995B0B1FC50BBA00D0CACA /* Info.plist */,
 				E0995B0C1FC50BBA00D0CACA /* main.m */,
+				E0E9C60E203FBD5E001397E6 /* Dog-Bridging-Header.h */,
 			);
 			path = Dog;
 			sourceTree = "<group>";
@@ -139,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0995B261FC50BBA00D0CACA /* Build configuration list for PBXNativeTarget "Dog" */;
 			buildPhases = (
+				D3361C8A9ABF3E0AD267CF58 /* [CP] Check Pods Manifest.lock */,
 				E0995AF61FC50BB900D0CACA /* Sources */,
 				E0995AF71FC50BB900D0CACA /* Frameworks */,
 				E0995AF81FC50BB900D0CACA /* Resources */,
+				FA14DB1C4686E30FA29FC08C /* [CP] Embed Pods Frameworks */,
+				5E57F7F7239BC5AF56C65745 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +316,7 @@
 				TargetAttributes = {
 					E0995AF91FC50BB900D0CACA = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					E0995B111FC50BBA00D0CACA = {
@@ -241,6 +359,7 @@
 				E0995B0A1FC50BBA00D0CACA /* LaunchScreen.storyboard in Resources */,
 				E0995B071FC50BBA00D0CACA /* Assets.xcassets in Resources */,
 				E0995B051FC50BBA00D0CACA /* Main.storyboard in Resources */,
+				E04AC2A21FD644C70073B2C1 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +379,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E57F7F7239BC5AF56C65745 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dog/Pods-Dog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3361C8A9ABF3E0AD267CF58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA14DB1C4686E30FA29FC08C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dog/Pods-Dog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E0995AF61FC50BB900D0CACA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E04AC2A41FD644C70073B2C1 /* SVRadialGradientLayer.m in Sources */,
+				E0E9C619203FEF38001397E6 /* BilayerLabel.m in Sources */,
 				E0995B021FC50BBA00D0CACA /* ViewController.m in Sources */,
+				E059F0D3202048DB00B2795C /* TestModel.m in Sources */,
+				E04AC2B01FD65DF10073B2C1 /* MBProgressHUD+Simple.m in Sources */,
+				E0E9C613203FBD72001397E6 /* TestView.m in Sources */,
+				E04AC2A11FD644C70073B2C1 /* SVProgressAnimatedView.m in Sources */,
+				E04AC2B21FD65DF10073B2C1 /* MBProgressHUD.m in Sources */,
 				E0995B0D1FC50BBA00D0CACA /* main.m in Sources */,
 				E0995AFF1FC50BBA00D0CACA /* AppDelegate.m in Sources */,
+				E04AC2B11FD65DF10073B2C1 /* MBProgressHUD+MJ.m in Sources */,
+				E0E9C616203FC20F001397E6 /* LyricLabel.m in Sources */,
+				E04AC2A01FD644C70073B2C1 /* SVIndefiniteAnimatedView.m in Sources */,
+				E04AC2A31FD644C70073B2C1 /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,28 +609,39 @@
 		};
 		E0995B271FC50BBA00D0CACA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5082AFFF27D40D96B50D51D /* Pods-Dog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QGWN647PA4;
 				INFOPLIST_FILE = Dog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GuoHengJinFu.Dog;
+				PRODUCT_BUNDLE_IDENTIFIER = GuoHengJinFu.pig;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dog/Dog-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		E0995B281FC50BBA00D0CACA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94DA20B6AAE8A4B396F2D03F /* Pods-Dog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QGWN647PA4;
 				INFOPLIST_FILE = Dog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GuoHengJinFu.Dog;
+				PRODUCT_BUNDLE_IDENTIFIER = GuoHengJinFu.pig;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dog/Dog-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
